@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #7251B5;
+}
+
+h1,
+h2,
+h3
+{
+margin-bottom: 0;
+}
+
+#company-name {
+    font-size: 1.5rem;
+}
+
+header,
+footer
+{
+    background-color: #000;
+    color: #DEC9E9;
+}
+/*this pushes the wrapper div to the right*/
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.skills {
+    list-style: none;
+    padding: 0%;
+}
+
+
+/*this selects both list types*/
+ul,
+li
+ {
+    padding: 0;
+    list-style: none;
+}
+/*can't get it to work*/
+body header div nav ul li {
+    color: #c9e9cb;
+    text-decoration:none;
+}
+
+/*Use an adjacent selector to target the section immediately beside the section with id #intro*/
