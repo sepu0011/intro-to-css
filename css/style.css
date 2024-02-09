@@ -49,3 +49,11 @@ body header div nav ul li {
 }
 
 /*Use an adjacent selector to target the section immediately beside the section with id #intro*/
+
+#intro + section {
+    background-color: #000;
+    color: #DEC9E9;
+}
+/*Use a child selector to target the img tag directly with the article tags*/
+
+
